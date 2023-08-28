@@ -80,6 +80,8 @@ p {
   border-radius: 5px;
   opacity: 0.9;
   padding: 0 40px;
+  line-height: 30px;
+  letter-spacing: 1px;
 }
 
 li {
@@ -91,6 +93,8 @@ li {
   border-radius: 3px;
   padding-bottom: 5px;
   padding: 0 20px;
+  line-height: 30px;
+  letter-spacing: 1px;
 }
 ul li {
   font-weight: lighter;
@@ -188,12 +192,12 @@ tbody td {
   padding: 0 80px;
 }
 .platforms {
-  display: inline-table;
+  display: inline-flex;
   z-index: 1;
 }
 .platforms a h5 {
-  color: purple;
-  background-color: white;
+  color: #3333ea;
+  background-color: #add8e6;
   box-shadow: #171313;
   border: 2px solid white;
   border-radius: 5px;
@@ -202,9 +206,10 @@ tbody td {
   margin: 5px 20px;
 }
 .platforms a h5:hover {
-  color: #ff00ff;
-  background-color: pink;
+  color: white;
+  background-color: #3cb371;
   box-shadow: 0px 0px;
+  opacity: 0.9;
 }
 .foot {
   background-color: #fff;
@@ -222,7 +227,7 @@ foot p {
 #myBtn {
   display: none;
   position: fixed;
-  bottom: 55px;
+  bottom: 64px;
   right: 30px;
   z-index: 99;
   font-size: 19px;

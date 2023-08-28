@@ -70,6 +70,10 @@ nav a:active {
   background: url('https://media1.thehungryjpeg.com/thumbs2/ori_3445502_ad86694f09350b5b7ddddd2f468e8f991b86a648_20-inclined-stripes-background-textures.jpg  ')
     center center no-repeat;
 }
+h1,
+h3 {
+  letter-spacing: 1px;
+}
 p {
   font-size: medium;
   font-weight: bolder;

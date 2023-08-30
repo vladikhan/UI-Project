@@ -73,6 +73,8 @@ nav a:active {
 h1,
 h3 {
   letter-spacing: 1px;
+  /* background-color: #fdf1e7; */
+  /* color: #2c365e; */
 }
 p {
   font-size: medium;
@@ -208,6 +210,9 @@ tbody td {
 .platforms {
   display: inline-flex;
   z-index: 1;
+}
+.platforms a {
+  text-decoration: none;
 }
 .platforms a h5 {
   color: #3333ea;

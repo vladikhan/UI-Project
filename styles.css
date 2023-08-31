@@ -173,30 +173,25 @@ img {
   /* height: 100px; */
 }
 .table {
-  /* display: inline-flexbox; */
-  overflow: auto;
-  /* display: inline-table; */
-  margin: 0 10%;
-  margin-left: 15%;
+  display: flex;
+  justify-content: center;
+  width: 10px;
+
+  margin: 0 50%;
 }
 table {
   border: 3px solid black;
+  justify-content: center;
   border-radius: 5px;
   text-align: center;
-  /* margin: 0 25%; */
   background-color: dodgerblue;
   opacity: 0.95;
   color: #fff;
-  /* flex: calc(50% - 20px); */
-  /* width: auto; */
-  display: inline-flexbox;
-  overflow: hidden;
-  /* display: contents; */
+  overflow: auto;
 }
 
 .left {
   text-align: center;
-  margin: 20px auto;
 }
 
 table h2 {
@@ -205,14 +200,23 @@ table h2 {
 }
 
 tbody td {
-  padding: 0 80px;
+  padding: 0 20px;
+}
+.beforePlatforms {
+  background-color: red;
+  width: 100px;
 }
 .platforms {
-  display: inline-flex;
+  display: -ms-flexbox;
   z-index: 1;
+  text-align: center;
+  width: min-content;
+  justify-content: center;
+  margin: 0 33%;
 }
 .platforms a {
   text-decoration: none;
+  width: auto;
 }
 .platforms a h5 {
   color: #3333ea;
@@ -222,7 +226,7 @@ tbody td {
   border-radius: 5px;
   padding: 5px 5px;
   box-shadow: 3px 4px;
-  margin: 5px 20px;
+  margin: 5px 50px;
 }
 .platforms a h5:hover {
   color: white;

@@ -65,7 +65,7 @@ nav a:active {
   border-top: 4px solid #ffb78c;
   height: 20rem;
   border-bottom: 4px solid #ffb78c;
-  display: flex;
+  flex-shrink: 1;
 
   background: url('https://media1.thehungryjpeg.com/thumbs2/ori_3445502_ad86694f09350b5b7ddddd2f468e8f991b86a648_20-inclined-stripes-background-textures.jpg  ')
     center center no-repeat;
@@ -176,7 +176,6 @@ img {
   display: flex;
   justify-content: center;
   width: 10px;
-
   margin: 0 50%;
 }
 table {
@@ -207,18 +206,17 @@ tbody td {
   width: 100px;
 }
 .platforms {
-  display: -ms-flexbox;
-  z-index: 1;
-  text-align: center;
   width: min-content;
-  justify-content: center;
-  margin: 0 33%;
+  margin: 0 38%;
+  flex-wrap: wrap;
 }
 .platforms a {
   text-decoration: none;
-  width: auto;
 }
 .platforms a h5 {
+  width: auto;
+
+  flex-shrink: 1;
   color: #3333ea;
   background-color: #add8e6;
   box-shadow: #171313;
@@ -226,7 +224,7 @@ tbody td {
   border-radius: 5px;
   padding: 5px 5px;
   box-shadow: 3px 4px;
-  margin: 5px 50px;
+  margin: 5px 10px;
 }
 .platforms a h5:hover {
   color: white;
